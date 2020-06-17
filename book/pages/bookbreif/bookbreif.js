@@ -34,13 +34,22 @@ Page({
           book_author : res.data.author,
           book_longIntro : res.data.longIntro
         })
-        
+        wx.setNavigationBarTitle({
+          // 动态设置当前页面的标题 ，title 为固定，
+          title : res.data.title,
+        })
+        // 成功获取数据之后，在当前页面隐藏导航条加载动画
+        wx.hideNavigationBarLoading({
+          complete: (res) => {},
+        })
       },
       fail(){
         console.log('fail =============')
       }
-      
+
     })
+    //在当前页面显示导航条加载动画，放在请求之前
+    wx.showNavigationBarLoading()
   },
 
   /**
@@ -92,6 +101,8 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-
+    return{
+      title: this.data.book_title
+    } 
   }
 })
