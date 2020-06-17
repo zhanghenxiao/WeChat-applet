@@ -1,0 +1,5 @@
+/* pages/wxml/index.wxss */
+.flex_test{
+  display: flex;
+  flex-direction: row;
+}

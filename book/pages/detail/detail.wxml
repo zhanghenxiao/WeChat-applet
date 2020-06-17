@@ -1,0 +1,2 @@
+<!--pages/detail/detail.wxml-->
+<text>pages/detail/detail id为：{{mid}}</text>

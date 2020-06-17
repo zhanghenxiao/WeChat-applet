@@ -1,0 +1,7 @@
+<!--pages/item/item.wxml-->
+<text>pages/item/item.wxml</text>
+<template name="item">
+  <text>{{text}}</text>
+</template>
+
+

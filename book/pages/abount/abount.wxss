@@ -1,0 +1,24 @@
+/* pages/abount/abount.wxss */
+/* 弹性盒子布局 页面布局灵活 整体页面布局控制  */
+.abount{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.abount_image{
+  width: 375rpx;
+  height: 375rpx;
+  /* 设置为圆形得图片 */
+  border-radius: 50%;
+}
+
+.nav{
+  color: aqua;
+}
+.nav_hover{
+  color: red;
+}

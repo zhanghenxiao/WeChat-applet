@@ -1,0 +1,91 @@
+<!--pages/wxml/index.wxml-->
+<text>cookie page</text>
+<!--
+<image class="userinfo-avatar" src="../images/1.png"></image>
+<text>开发时间为{{time}} - </text>
+<view>
+  属性值绑定需要得是“”
+  <view wx:if="false">this is true 这是错误语法</view>
+  <view wx:if="{{false}}">this is flase</view>
+
+</view>
+
+<text>{{2>1?"yes":"no"}}</text>
+<view wx:if="{{false}}">this is true</view>
+<view wx:else>thia is flase</view>
+
+<block wx:if = "{{true}}">
+  <view>1</view>
+  <view>2</view>
+</block>
+<view wx:for="{{array}}">
+  <text>{{index}}   {{item.message}}</text>
+</view>
+<view wx:for="{{array}}" wx:for-index="idx" wx:for-item="itemName">
+  {{idx}}: {{itemName.message}}
+</view>
+<block wx:for="{{[1, 2, 3]}}">
+  <view> {{index}}: </view>
+  <view> {{item}} </view>
+</block>
+
+<switch wx:for="{{objectArray}}" wx:key="unique" > {{item.id}} </switch>
+<button bindtap="switch"> Switch </button>
+<button bindtap="addToFront"> Add to the front </button>
+<switch wx:for="{{numberArray}}" wx:key="*this" > {{item}} </switch>
+<switch></switch>
+<button bindtap="addNumberToFront"> Add Number to the front </button>
+-->
+
+<!-- item: {
+  index: 0,
+  msg: 'this is a template',
+  time: '2016-06-18'
+} -->
+<!--  
+<template name="msgItem">
+  <view>
+    <text> {{index}}: {{msg}} </text>
+    <text> Time: {{time}} </text>
+  </view>
+</template>
+-->
+<!-- data="{{...item}}" 加上这个不理解 -->
+<!--  
+<template is="msgItem" data="{{...item}}"/>
+
+<template name="odd">
+  <view> one </view>
+</template>
+<template name="even">
+  <view> two </view>
+</template>
+
+<block wx:for="{{[1, 2, 3, 4, 5]}}">
+  <template is="{{item % 2 == 0 ? 'even' : 'odd'}}"/>
+</block>
+
+<import src="../item/item.wxml"/>
+<template is="item" data="{{text: 'forbar'}}"/>
+
+<view>
+  <image mode="scaleToFill" src="../images/1.png"></image>
+</view>
+<view id="tapTest" data-hi="WeChat" bindtap="tapName"> Click me! </view>
+
+<view id="outer" catchtap="handleTap">
+  <view id="inner">点击我</view>
+</view>
+-->
+
+
+
+
+
+
+
+
+
+
+
+

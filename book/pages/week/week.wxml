@@ -1,0 +1,39 @@
+<!--pages/week/week.wxml-->
+<!-- autoplay="true" 自动播放 interval="2000" 时长为2s current="2"幻灯片默认出现得界面  
+to_betail点击view时传递自定义数据（data-moveid）给week.js,week.js通过事件处理函数（event.currentTarget.dataset）获取自定义数据
+ -->
+<swiper class="swiper" autoplay="true" interval="2000"  current="{{index}}" >
+  <swiper-item wx:for="{{allbook}}" wx:key='*this'>
+    <view class="flex_week" bindtap="to_betail" data-moveid="{{item.id}}">
+      <button class="return" wx:if="{{item.show}}" catchtap="click" size="mini">返回本周</button>
+      <image class="image_week" src="{{item.bookimage}}"></image>
+      <text class="fontcolor">{{item.bookname}}</text>
+      <text>{{item.book_detail}}</text>
+    </view>
+  </swiper-item>
+</swiper>
+
+<view bindtap="testclick" data-wwww="22">
+  
+  <text>点击</text>
+</view>
+
+<view style="margin-bottom: 50rpx;"></view>
+<view class="nav_list">
+  <view wx:for="{{list_title}}" wx:key='*this'>
+    <text>{{item}}</text>
+  </view>
+</view>
+
+<view class="list_week"></view>
+<view class="listimage_flex">
+  <view  wx:for="{{allbook}}" bindtap="to_betail" data-moveid="{{item.id}}">
+      <image class="image_list" src="{{item.bookimage}}"></image>
+        <text class="fontcolor">{{item.bookname}}</text>
+        <text class="fontcolor">{{item.book_detail}}</text>
+  </view>
+</view>
+
+
+
+

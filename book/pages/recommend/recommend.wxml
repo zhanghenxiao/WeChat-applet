@@ -1,0 +1,26 @@
+<!--pages/recommend/recommend.wxml-->
+<swiper autoplay="true">
+  <swiper-item  wx:for='{{books}}' wx:key="*this" >
+    <view bindtap="downpage" data-bookid="{{item._id}}">
+      <text>{{item.title}}</text>
+    </view>
+  </swiper-item>
+</swiper>
+<view class='booklist'>
+  <view  wx:for='{{booklist}}' wx:key="*this">
+    <text style= "color: #3377aa;">
+      {{item}}
+    </text>
+  </view>
+</view>
+<!-- 
+<view>
+  <button bindtap="test">点击</button>
+</view> -->
+
+<view wx:for='{{books}}' wx:key="*this">
+  <text bindtap="downpage" data-bookid="{{item._id}}">{{item.title}}</text>
+</view>
+
+
+

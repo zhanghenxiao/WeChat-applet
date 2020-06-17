@@ -1,0 +1,8 @@
+<!--pages/my/my.wxml-->
+<!-- bindtap="request_test" -->
+<view bindtap="request_test">
+ <view>
+    <input class="weui-input"  maxlength="20" bindinput="bindKeyInput" placeholder="输入正确需要得查询快递单号"/>
+ </view>
+  <text>页面后续开发</text>
+</view>

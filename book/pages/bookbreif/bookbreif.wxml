@@ -1,0 +1,10 @@
+<view>
+  <!-- <image src="{{book_image}}"></image> -->
+  <view>
+    <text>书名：{{book_title}}</text>
+    <text>作者：{{book_author}}</text>
+  </view>
+  <view>
+    <text>详情 ：{{book_longIntro}}</text>
+  </view>
+</view>

@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/recommend/recommend",
+    "pages/abount/abount",
+    "pages/bookbreif/bookbreif",
+    "pages/my/my",
+    
+    "pages/week/week",
+    "pages/detail/detail",
+
+    "pages/wxml/index",
+    "pages/item/item",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/abount/abount",
+      "text": "首页",
+      "iconPath": "./pages/images/home1.png",
+      "selectedIconPath": "./pages/images/home2.png"
+    },
+    {
+      "pagePath":  "pages/recommend/recommend",
+      "text": "每周推荐",
+      "iconPath": "./pages/images/nav_week1.png",
+      "selectedIconPath": "./pages/images/nav_week2.png"
+    },
+    {
+      "pagePath":  "pages/week/week",
+      "text": "test每周推荐",
+      "iconPath": "./pages/images/nav_week1.png",
+      "selectedIconPath": "./pages/images/nav_week2.png"
+    },
+    {
+      "pagePath":  "pages/my/my",
+      "text": "我的",
+      "iconPath": "./pages/images/my1.png",
+      "selectedIconPath": "./pages/images/my2.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

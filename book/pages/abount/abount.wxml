@@ -1,0 +1,13 @@
+<!--pages/abount/abount.wxml-->
+<view class="abount">
+  <image class="abount_image" src="../images/book.png"></image>
+  <text style='font-size:30px'>书籍时时看</text>
+  <view>
+    <!-- hover-class鼠标点击时得样式 至于定义一个class:nav是内联样式计算法 -->
+    <navigator url="/pages/week/week" style="display: inline;"
+    hover-class="nav_hover" class="nav" open-type="switchTab">每周推荐</navigator>
+    <text>多本书籍</text>
+  </view>
+  <text>公众号：西服小哥哥Cookie</text>
+</view>
+
