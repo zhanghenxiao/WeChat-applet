@@ -1,0 +1,13 @@
+<!--pages/invoice/invoice.wxml-->
+<view>
+  <icon class="icon-small" type="info_circle" size="43"></icon>
+  <!-- <image class="image" src= "../images/fapao_input.png"></image> -->
+  <view>
+    <!-- <button <navigator url="../invoice_detail/invoice_detail" hover-class="navigator-hover">手工录入查询</navigator>
+    ></button> -->
+    <icon class="icon-small" type="info_circle" size="43"></icon>
+    <button type="primary" plain="true" loading="true"> 手工录入查询</button>
+    
+  </view>
+  
+</view>

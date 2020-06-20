@@ -1,5 +1,10 @@
 {
   "pages":[
+    "pages/invoice/invoice",
+    "pages/invoice_detail/invoice_detail",
+    
+    
+
     "pages/recommend/recommend",
     "pages/abount/abount",
     "pages/bookbreif/bookbreif",
@@ -14,10 +19,10 @@
     "pages/logs/logs"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "书籍阅读",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "发票真伪查询",
+    "navigationBarBackgroundColor": "#000000"  ,
+    "backgroundColor": "#ffffff",
+   "navigationBarTextStyle":"white"
   },
   "tabBar": {
     "list": [{

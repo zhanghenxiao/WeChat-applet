@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "发票真伪查询",
+  "navigationBarBackgroundColor": "#000000"  ,
+  "backgroundColor": "#ffffff",
+  "navigationBarTextStyle":"white"
+}

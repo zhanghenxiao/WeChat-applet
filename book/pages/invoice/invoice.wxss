@@ -1,0 +1,4 @@
+/* pages/invoice/invoice.wxss */
+.image{
+  size: 3;
+}

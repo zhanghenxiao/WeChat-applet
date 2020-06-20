@@ -1,0 +1,20 @@
+<!--pages/invoice_detail/invoice_detail.wxml-->
+<view>
+  <view >
+    <text>发票代码</text>
+    <input  bindinput="bindKeyInput" placeholder="请输入" data-putid="1"/>
+  </view>
+  <view>
+    <text>发票号码</text>
+    <input bindinput="bindKeyInput" placeholder="请输入" data-putid="2"/>
+  </view>
+  <view>
+    <text>开票日期</text>
+    <input placeholder="请选择开票日期"/>
+  </view>
+  <view>
+    <text>效验码(后六位)</text>
+    <input placeholder="请输入"/>
+  </view>
+  <button bindtap="send">立即查询</button>
+</view>
