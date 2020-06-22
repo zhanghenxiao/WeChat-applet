@@ -1,7 +1,8 @@
 {
   "pages":[
-    "pages/invoice/invoice",
     "pages/invoice_detail/invoice_detail",
+    "pages/invoice/invoice",
+    
     
     
 

@@ -2,3 +2,7 @@
 .image{
   size: 3;
 }
+.flex{
+  display: flex;
+  align-items: center;
+}
