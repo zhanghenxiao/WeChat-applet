@@ -1,0 +1,7 @@
+<!--pages/invoice_verify/invoice_verify.wxml-->
+<view>
+  <view wx-for='{{mid}}'>
+    <text>{{item.num}},{{item}}</text>
+    <text>{{item.fplxName}}</text>
+  </view>
+</view>

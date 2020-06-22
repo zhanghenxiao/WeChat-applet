@@ -1,6 +1,7 @@
 {
   "pages":[
     "pages/invoice_detail/invoice_detail",
+    "pages/invoice_verify/invoice_verify",
     "pages/invoice/invoice",
     
     
